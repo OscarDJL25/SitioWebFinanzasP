@@ -1,0 +1,191 @@
+
+.header {							/* Estilos para el header */
+    background: linear-gradient(to right, #b8ae63 , #fefe5b); 	/*Degradado atractivo*/
+    padding: 30px;						/*altura del cuadro*/
+    text-align: center; 					/*posiion de texto*/
+    color: #2e3918;						/*Clor de texto*/
+}
+
+.title {			/* Título del header */
+    font-size: 3em;		/* Tamaño de letra */
+    margin-bottom: 10px;	/* Margen medida */
+}
+
+.nav-menu {			/* Menú de navegación */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-menu li {			/* Elementos de la lista */
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {				/* Enlaces de navegación */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-link:hover {				/* Efecto hover */
+    background: rgba(255, 255, 255, 0.2);
+}
+
+h2 {				/* Estilos para secciones */
+    padding: 20px;
+	color: #2e3918;		/*Color de texto*/
+}
+
+.parrafo-A{	/*para parrafos principales*/
+	color: #2e3918;
+	font-size: 1.5em;
+}
+
+/* ____________________________________________Estilo general de la tabla */
+.tabla-contenido {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d6f98f; /* Fondo claro */
+    font-family: Times New Roman, sans-serif;
+}
+
+.tabla-contenido thead th {	/* Estilo del encabezado */
+    background: linear-gradient(to left, #069d16, #7ef98b); /* Degradado azul */
+    color: #2e3918;
+    font-size: 1.5em;
+    font-family:serif;
+    padding: 20px;
+    text-align: center;
+    border: none; 		/*2.5px solid black;*/
+}
+/*
+.tabla-contenido tbody tr {		/* Estilo de las filas
+    border-bottom: 1px solid #ddd;
+}*/
+
+.tabla-contenido td {		/* Estilo de las celdas */
+    background:  #90e39e;
+    color: #2e3918;
+    font-size: 1em;
+    font-family:inherit;
+    padding: 11px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+/*
+.tabla-contenido tbody tr:nth-child(even) {		/* Fondo alternado para filas
+    background-color: #e3f2fd; 				/* Azul muy claro
+}*/
+
+/*.tabla-contenido td:first-child,	/* Estilo de la lista dentro de la tabla */
+/*.tabla-contenido td:nth-child(2),
+.tabla-contenido td:nth-child(3) {
+    font-weight: bold;
+}
+/*
+.tabla-contenido td:has(ul) {		/* Estilo para los elementos tipo lista
+    font-weight: normal;
+}
+
+.tabla-contenido tbody tr:hover {	/* Hover en filas
+    background-color: #b3e5fc; /* Azul más fuerte
+    cursor: pointer;
+}*/
+/* ____________________________________________Imagenes */
+
+.imagen-economia {
+    width: 100%;            /* Ajusta el tamaño */
+    max-width: 600px;      /* Máximo tamaño */
+    display: block;        /* Asegura que no haya espacio extra */
+    margin: 20px auto;     /* Centrar la imagen */
+    border-radius: 10px;  /* Bordes redondeados */
+    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+}
+.imagen-personaje {
+    width: 60%;            /* Ajusta el tamaño */
+    max-width: 600px;      /* Máximo tamaño */
+    display: block;        /* Asegura que no haya espacio extra */
+    margin: 20px auto;     /* Centrar la imagen */
+    border-radius: none;  /* Bordes redondeados */
+    /*box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
+}
+/* ____________________________________________frases */
+.lista-motivacional {
+    list-style: none; /* Eliminar viñetas */
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.lista-motivacional li {
+    background: linear-gradient(135deg, #b8ae63 , #fefe5b); /* Fondo degradado */
+    color: black; /* Texto en blanco */
+    font-size: 1.1em;
+    font-family:cursive;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+  /*  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  /*  transition: transform 0.3s ease-in-out;*/
+}
+
+/* Efecto hover para destacar la frase al pasar el mouse */
+/*.lista-motivacional li:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}*/
+
+
+/* ____________________________________________lista de opciones */
+.lista-opciones {
+    list-style:none; /* Eliminar viñetas */
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Times', sans-serif;
+}
+
+.lista-opciones li {
+    background: linear-gradient(135deg, #b8ae63 , #fefe5b); /* Fondo degradado */
+    color: black; /* Texto en blanco */
+    font-size: 1.1em;
+    font-family:cursive;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: transform 0.3s ease-in-out;
+}
+
+.lista-opciones li:hover { /* Efecto hover para destacar la frase al pasar el mouse */
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}*/
+
+
+/* ____________________________________________parrafo formal */
+.parrafo-formal {
+    font-family: 'Georgia', serif; /* Fuente elegante y formal */
+    font-size: 1.1em;
+    line-height: 1.6; /* Espaciado para mayor legibilidad */
+    text-align: justify;
+    color: #333; /* Color oscuro pero suave */
+    padding: 15px;
+    border-left: 4px solid #0077b6; /* Línea decorativa en el borde */
+    background-color: #f8f9fa; /* Fondo suave */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+body {
+    background-color: #d6f98f;
+}
